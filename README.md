@@ -14,4 +14,4 @@
 ![image](https://github.com/pandjiaprillian/me-task/assets/54461403/83492d46-6809-4787-b0e6-424a62c88647)
 
 ## Netlify
-Me-task[https://me-task.netlify.app/]
+Me-task(https://me-task.netlify.app/)
