@@ -30,7 +30,7 @@ export default function ContentList({ task, onHandleDeleteTask }) {
          <div className="w-full bg-secondary p-3 rounded-md relative flex justify-between mb-2" onClick={showSwal}>
             <div>{task.description}</div>
             <div className='close'>
-               <img src="./src/img/icon/delete.png" alt="delete" className="w-8" title="hapus tugas" />
+               <img src="/img/icon/delete.png" alt="delete" className="w-8" title="hapus tugas" />
             </div>
          </div>
       </>
