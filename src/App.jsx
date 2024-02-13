@@ -27,9 +27,12 @@ function App() {
         background: '#323437',
         color: '#fff',
         inputAutoFocus: false,
+        
         inputValidator: value => {
           if (!value) {
             return 'Mohon masukan nama anda 🙄'
+          } else if (value.length >= 10) {
+            return 'Nama minimal hanya 10 karakter!'
           } else {
             setUsername(value);
           }
