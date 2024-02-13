@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   @apply font-ubuntu bg-background text-background;
+}
+
+.close {
+   @apply bg-red-600 absolute top-0 right-0 bottom-0 rounded-tr-md rounded-br-md flex justify-center items-center p-2 cursor-pointer hover:bg-red-700 transition-all;
+}
